@@ -1,0 +1,221 @@
+/* CUSTOM sELECT */
+body{
+  height: 100vh;
+  background: linear-gradient(to top, #7d0d87, #a86cc6)
+  /* linear-gradient(to bottom right, #7d0d87, #a86cc6); */
+}
+.teacherSignInForm{
+  width: 30%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+/* html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+} */
+
+
+
+
+/* message -------------------------------------- */
+.app--message--me {
+    padding: 0 0 10px;
+    padding-right: 70px;
+    text-align: right;
+    position: relative;
+}
+/* li {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+} */
+/* <div class="app--avatar" style="background-image: url(images/m-spore.png)">
+                  <img src="images/m-spore.png">
+                </div> */
+
+.app--message--me .app--avatar {
+    right: 0;
+  }
+  .app--message--list .app--avatar, .app--message--conversation .app--avatar {
+      position: absolute;
+      bottom: 10px;
+      margin: 0;
+  }
+
+.app--avatar {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 54px;
+    height: 54px;
+    float: left;
+    margin-left: -70px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    -ms-transition: box-shadow 0.2s;
+    -o-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.app--message--list, .app--message--conversation {
+    list-style: none;
+}
+li {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.app--message--me .app--message--text {
+    background: #1da1f2;
+    background: #f00;
+}
+
+.app--message--text {
+    background: #a86cc6;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 0 0 5px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+}
+
+.app--message--me .app--message--text:after {
+    background: #1da1f2 url(../images/message-tail-me.svg) no-repeat;
+    background: #f00 url(../images/message-tail-me.svg) no-repeat;
+    left: auto;
+    right: -8px;
+}
+.app--message--text:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -8px;
+    bottom: 0px;
+    background: #a86cc6 url(../images/message-tail.svg) no-repeat;
+    width: 16px;
+    height: 20px;
+}
+
+
+.app--message--conversation {    ul
+    margin: 0;
+}
+
+.app--message {                  li
+    padding: 0 0 10px;
+    padding-left: 70px;
+    position: relative;
+}
+
+
+.app--message .app--avatar {
+    left: 0;
+}
+.app--message--list .app--avatar, .app--message--conversation .app--avatar {
+    position: absolute;
+    bottom: 10px;
+    margin: 0;
+}
+
+.app--avatar {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 54px;
+    height: 54px;
+    float: left;
+    margin-left: -70px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    -ms-transition: box-shadow 0.2s;
+    -o-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.app--avatar img {
+    width: 100%;
+    display: none;
+}
+/* img {
+    border: 0;
+} */
+.app--message--text {
+    background: #a86cc6;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 0 0 5px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+}
+.app--message--text:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -8px;
+    bottom: 0px;
+    background: #a86cc6 url(../images/message-tail.svg) no-repeat;
+    width: 16px;
+    height: 20px;
+}
+
+.app--message--timestamp {
+    font-size: 1.2rem;
+    color: #999;
+    margin: 0;
+}
+.app--message--text:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -8px;
+    bottom: 0px;
+    background: #a86cc6 url(../images/message-tail.svg) no-repeat;
+    width: 16px;
+    height: 20px;
+}
